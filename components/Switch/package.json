@@ -1,0 +1,67 @@
+{
+  "name": "switch",
+  "version": "1.0.0",
+  "description": "switch",
+  "files": [
+    "demo/",
+    "es/",
+    "lib/",
+    "build/"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "sideEffects": [
+    "dist/*",
+    "*.scss",
+    "*.less",
+    "*.css"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "test": "build-scripts test",
+    "prepublishOnly": "npm run build",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix": "npm run eslint -- --fix",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\"",
+    "lint": "npm run eslint && npm run stylelint"
+  },
+  "keywords": [
+    "ice",
+    "react",
+    "component"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "@iceworks/spec": "^1.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "build-plugin-component": "^1.0.0",
+    "build-scripts": "^1.1.1",
+    "classnames": "^2.3.1",
+    "css-loader": "^6.5.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^7.0.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16 || ^17"
+  },
+  "componentConfig": {
+    "name": "Switch",
+    "title": "switch",
+    "category": "Others"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
