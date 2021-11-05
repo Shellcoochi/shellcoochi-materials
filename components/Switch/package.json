@@ -1,5 +1,5 @@
 {
-  "name": "switch",
+  "name": "shellcoochi-switch",
   "version": "1.0.0",
   "description": "switch",
   "files": [
@@ -63,5 +63,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://unpkg.com/shellcoochi-switch@1.0.0/build/index.html"
 }

@@ -8,7 +8,7 @@ order: 1
 ```jsx
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Switch from 'switch';
+import Switch from 'shellcoochi-switch';
 
 class App extends Component {
   render() {
