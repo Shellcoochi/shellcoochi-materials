@@ -1,6 +1,6 @@
 {
   "name": "shellcoochi-materials",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "This is a ice material project",
   "author": "",
   "scripts": {
@@ -24,10 +24,17 @@
   "materialConfig": {
     "template": "@icedesign/ice-react-ts-material-template",
     "type": "react",
+    "registry": "http://59.110.22.17:4873",
+    "unpkgHost": "http://59.110.22.17:8081",
     "fusion-site": {
       "id": 18481,
       "name": "shellcoochi",
       "url": "https://fusion.design/api/v1/sites/18481/materials"
     }
+  },
+  "dependencies": {
+    "iceworks": "^3.4.7",
+    "node-gyp": "^8.4.0",
+    "node-sass": "^6.0.1"
   }
 }

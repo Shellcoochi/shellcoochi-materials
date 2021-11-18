@@ -1,6 +1,6 @@
 {
   "name": "shellcoochi-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "switch",
   "files": [
     "demo/",
@@ -64,5 +64,5 @@
     "access": "public"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.com/shellcoochi-switch@1.0.0/build/index.html"
+  "homepage": "http://59.110.22.17:8081/shellcoochi-switch@1.0.1/build/index.html"
 }
